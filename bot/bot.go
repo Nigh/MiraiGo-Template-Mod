@@ -4,8 +4,6 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/Mrs4s/MiraiGo/binary"
-	"github.com/pkg/errors"
 	_ "image/png"
 	"io/ioutil"
 	"os"
@@ -13,12 +11,15 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Mrs4s/MiraiGo/binary"
+	"github.com/pkg/errors"
+
 	qrcodeTerminal "github.com/Baozisoftware/qrcode-terminal-go"
 	"github.com/tuotoo/qrcode"
 
-	"github.com/Logiase/MiraiGo-Template/config"
-	"github.com/Logiase/MiraiGo-Template/utils"
 	"github.com/Mrs4s/MiraiGo/client"
+	"github.com/Nigh/MiraiGo-Template-Mod/config"
+	"github.com/Nigh/MiraiGo-Template-Mod/utils"
 	"github.com/sirupsen/logrus"
 )
 

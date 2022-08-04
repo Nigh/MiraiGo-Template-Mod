@@ -1,6 +1,6 @@
-module github.com/Logiase/MiraiGo-Template
+module github.com/Nigh/MiraiGo-Template-Mod
 
-go 1.17
+go 1.18
 
 require (
 	github.com/Baozisoftware/qrcode-terminal-go v0.0.0-20170407111555-c0650d8dff0f
@@ -11,6 +11,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/viper v1.10.1
 	github.com/tuotoo/qrcode v0.0.0-20190222102259-ac9c44189bf2
+	golang.org/x/mobile v0.0.0-20190719004257-d2bd2a29d028
 )
 
 require (

@@ -2,8 +2,9 @@ package lib
 
 import (
 	"fmt"
-	"github.com/Logiase/MiraiGo-Template/bot"
-	"github.com/Logiase/MiraiGo-Template/config"
+
+	"github.com/Nigh/MiraiGo-Template-Mod/bot"
+	"github.com/Nigh/MiraiGo-Template-Mod/config"
 	_ "golang.org/x/mobile/bind"
 )
 
